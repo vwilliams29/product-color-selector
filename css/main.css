@@ -1,0 +1,42 @@
+h1 {
+  font-family: "Courgette", cursive;
+  text-align: center;
+  padding-top: 40px;
+}
+body {
+  background-color: #19fcb8;
+}
+#product-photo {
+  width: 100%;
+  box-shadow: 0 16px 20px 0 #bfbfbf;
+}
+.selected {
+  border-color: #000;
+}
+
+.swatch#pink {
+  background-color: lightpink;
+}
+.swatch#green {
+  background-color: darkgreen;
+}
+.swatch#black {
+  background-color: black;
+}
+.swatch#white {
+  background-color: white;
+}
+.swatch {
+  border: 1px solid #bbb;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.text {
+  font-family: "Amatic SC", cursive;
+  font-size: 25px;
+}
